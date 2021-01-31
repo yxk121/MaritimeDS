@@ -1,4 +1,4 @@
-name: pytorch-CycleGAN-and-pix2pix
+name: T2I-CycleGAN
 channels:
 - pytorch
 - defaults
