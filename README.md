@@ -2,7 +2,11 @@
 
 In this study, we aim to construct maritime traffic structure using an unsupervised CycleGAN-based method.
 
-The code has two parts: Generate Map and T2I-CycleGAN. The Generate Map part is to process the raw trajectory data into the input data of the T2I-CycleGAN model; the T2I-CycleGAN part is to process the input data to achieve the extraction of the ocean traffic structure, and the code is based on This part of the code is based on the [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) code to modify the results. The modifications are mainly in the model part of the code, and a sparse layer is added to the CycleGAN code for processing sparse data.
+* The code has two parts: **Generate Map** and **T2I-CycleGAN**. 
+
+  * The Generate Map part is to process the raw trajectory data into the input data of the T2I-CycleGAN model; 
+
+  * The T2I-CycleGAN part is to process the input data to achieve the extraction of the ocean traffic structure, and the code is based on This part of the code is based on the [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) code to modify the results. The modifications are mainly in the model part of the code, and a sparse layer is added to the CycleGAN code for processing sparse data.
 
 ## Generate Map
 
@@ -24,5 +28,5 @@ Runtime environment: torch>=1.4.0; torchvision>=0.5.0; dominate>=2.4.0; visdom>=
 
 * Sample data is in `\T2I-CycleGAN\pytorch-CycleGAN\dataset\point2region\`
 
-* The benchmark data used in *Urban Traffic Structure* is [OpenStreetMap (OSM)](https://www.openstreetmap.org/).
+* The benchmark data used in **Urban Traffic Structure** is [OpenStreetMap (OSM)](https://www.openstreetmap.org/).
   
