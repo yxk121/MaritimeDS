@@ -1,5 +1,5 @@
-01data_disposed-edited:为feature_extraction提供数据
-02feature_extraction:绘制point，line，获取direction，speed，transition
-03label_data:绘制centerline
-04Generate_Samples_forGAN:处理得到的数据，获得实验输入
-05Geometry_Translation:合并特征矩阵作为CycleGAN的输入
+01data_disposed-edited: Provide data for feature_extraction;
+02feature_extraction: Draw point, line, construct direction, speed, transition;
+03label_data:Draw centerline;
+04Generate_Samples_forGAN:Process the obtained data to obtain data samples;
+05Geometry_Translation:Merge feature matrix as input to T2I-CycleGAN.
