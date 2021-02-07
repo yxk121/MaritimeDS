@@ -20,7 +20,7 @@ Runtime environment: `torch>=1.4.0; torchvision>=0.5.0; dominate>=2.4.0; visdom>
 
 1. Create a new dataset storage directory point2region in the `\T2I-CycleGAN\pytorch-CycleGAN\dataset\` , and then create testA, testB, trainA, trainB in point2region. respectively, and testB and trainB store the splitted centerline images divided by 04Generate_Samples_forGAN;
 
-2. Use `python train.py --dataroot . /datasets/point2region --name point2region --model cycle_gan` to train the model;
+2. Use `python train.py --dataroot ./datasets/point2region --name point2region --model cycle_gan` to train the model;
 
 3. Use `python test.py --dataroot datasets/point2region/mirror_flip180 --name point2region --model test --no_dropout --num_test 256` to perform the test.
 
